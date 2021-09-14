@@ -8,7 +8,6 @@
 import UIKit
 
 class ViewController: UIViewController {
-
     @IBOutlet private weak var countLabel: UILabel!
     private var count = 0
 
@@ -16,7 +15,6 @@ class ViewController: UIViewController {
         count += 1
         countLabel.text = String(count)
     }
-
     @IBAction private func clearButton(_ sender: UIButton) {
         count = 0
         countLabel.text = String(count)
